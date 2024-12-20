@@ -7,6 +7,7 @@ with open('apikey.txt', 'r') as file:
 
 client = OpenAI(api_key=OPENAI_API_KEY)
 
+# enter your modelId recieved after training the model during setup below
 modelId = "ft:gpt-3.5-turbo-0125:scrumai::AgYTUrrD"
 
 def takeInAndOutputRespone(userPrompt):
