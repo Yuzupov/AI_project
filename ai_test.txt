@@ -1,0 +1,581 @@
+
+Testing the AI:
+Quiz 1:
+Q1: 
+	What is the product backlog?
+Correct answer:
+	A prioritized list of the things the customer wants.
+ScrumAI Answer:
+	The product backlog is a prioritized list of all the work that needs to be done on a project. It is maintained by the product owner and serves as the single source of truth for what the development team should be focusing on. The product backlog is dynamic and constantly evolving as new requirements, features, and changes are added.
+
+Points: 1/1
+
+Q2:
+	Which two fields in a user story (also known as a backlog item) are the most important, and why?
+Correct answer:
+	How to demo - a high-level description of how this story will be demonstrated. This is important, because it helps determine the scope of the story: what is included in the story, and what is not. (this field is to determine the scope of the story, which includes what tasks are for this story and what tasks are left for other stories).
+	Name - a short, descriptive name. This is important, because it summarizes the story in a way that is easy to remember. (this field is to summarize the story and is usually the first or only thing the team looks at when discussing tasks related to the story.)
+ScrumAI Answer:
+	The two most important fields in a user story are the **Title/Summary** and the **Acceptance Criteria**.
+
+	1. **Title/Summary**: A concise and descriptive title is crucial as it provides a quick overview of what the user story is about. It helps team members and stakeholders quickly grasp the essence of the story. A well-crafted title sets the context and guides further discussions and actions.
+
+	2. **Acceptance Criteria**: Acceptance criteria define the conditions that must be met for the story to be considered complete and working as expected. They provide clarity on the expected outcome and help prevent misunderstandings. Acceptance criteria serve as a reference point for the team during implementation and testing.
+
+Points: 1/2.
+
+Q3:
+	Which two of the following backlog problems must be fixed before sprint planning?
+Correct answer:
+	There is not backlog yet
+	A couple of stories were added when the product-owner was absent, and the product-owner hasn't yet looked at these stories.
+ScrumAI Answer:
+	1. Backlog items not clearly defined or lacking acceptance criteria.
+	2. High-priority items not at the top of the backlog.
+
+	These are examples of backlog refinement issues that need to be resolved before sprint planning to ensure that the team has a clear understanding of the work to be done in the upcoming sprint.
+Points: 1/1
+
+Explanation: 
+	While the answers provided by the ScrumAI do not perfectly match what the MCQ (multiple choice question) alternatives are, it stresses the importance of a backlog (which is one of the mcq answers) hence we deem it acceptible. The other MCQ answer is context dependent and we did not feed the answer alternatives to the ScrumAI. However, the product owner is the person who is responsible for the priority of the stories. Therefore, we find that the second answer in the MCQ aligns with the ScrumAI answer of high priority items not at the top of the backlog, as the backlog itself now consists of stories without priorities.
+
+
+Q4:
+	Two kinds of meetings are the most important ones in Scrum. Sprint planning is one of them - which kind of meeting is the other one? 
+Correct answer:
+	Sprint retrospective
+ScrumAI answer:
+  	Sprint Demo (also known as "Sprint Review").
+
+Points: 0/1.
+
+Explanation: While the review is very important, the quiz lists "sprint retrospective" as the most important one as it gives the team the best chance to improve.
+	
+Q5:
+	Must the product owner attend the sprint-planning meeting? 
+Correct answer:
+	It is very important that the product-owner attends the meeting. If the product owner cannot make it, a proxy has to attend instead.
+ScrumAI answer:
+	The product owner should definitely attend the sprint planning meeting. Their presence is crucial to provide direction and guidance to the development team. The product owner is responsible for setting priorities, defining requirements, and ensuring that the product backlog is up to date. Their input during the sprint planning meeting is essential for the team to plan and execute tasks effectively.
+
+Points: 1/1
+
+Explanation: 
+	While not explicitly stating the exact same answer, the ScrumAI does point out the importance of the product owner attending the meeting and why it is important.
+
+Q6:
+	Must the whole team attend the sprint-planning meeting? 
+Correct answer: 
+	It is very important that the whole team attends the meeting. If some team-members cannot make it, the meeting (and the sprint) will suffer.
+ScrumAI answer:
+	###As an expert Scrum Master, I would recommend that the whole Scrum team attend the sprint planning meeting. This includes the product owner, the Scrum Master, and all members of the development team. The purpose of the sprint planning meeting is to bring together the entire team to discuss and commit to the goals, scope, and plan for the upcoming sprint. It is important for everyone to be present to ensure a shared understanding of the work to be done and to facilitate collaboration and communication. If a team member is unable to attend, it is a good practice to reschedule the meeting to a time when everyone can participate.
+
+Points: 1/1
+
+Explanation:
+	The AI correctly identifies the importance of the whole team attending the meeting.
+
+Q7:
+	Mark the three variables that are open to discussion during sprint planning:
+	The team's working hours.
+	Quality level of each story.
+	Importance of each story.
+	Scope of each story.
+	Time estimate for each story.
+Correct answer:
+	Importance of each story.
+	Scope of each story.
+	Time estimate for each story.
+ScrumAI answer:
+	Quality level of each story.
+	Importance of each story.
+	Time estimate for each story.
+
+Points: 0.666666667/1
+
+Q8:
+	For each item, mark who makes the final decision on that item: the team, the product-owner, or both of them together in agreement.
+    	The sprint goal is decided by the <person>.
+    	The time and place for the sprint demo is decided by the <person>
+    	How to demo each story is decided by the <person>
+    	The definition of "done" is decided by <person>
+    	The importance rating for each story is decided by the <person>
+    	The breakdown of stories into engineering-tasks is decided by the <person>
+    	The time-estimates are decided by the <person>
+    	The time and place for the Daily Scrum is decided by the <person>
+    	Which stories to include in the sprint is decided by the <person> 
+Correct answer:
+	Product-owner
+	Product-owner
+	Team and product-owner
+	Team and product owner
+	Product-owner
+	Team
+	Team
+	Team
+	Team
+ScrumAI answer:
+	Team and product-owner
+	Scrum master
+	Team
+	Team
+	Product owner
+	Team
+	Team
+	Team
+	Team
+
+Points: 0.55555555/1
+
+Total points for Q1:
+	5,7222222/8
+Ratio correct:
+	71,5 %
+
+Quiz 2:
+Q1:
+	Your team needs to make a time-estimate for a user-story called "Registration". Unfortunately, no-one is sure how to finish the story, and that makes it hard to agree on an estimate.
+
+	There are several ways to manage this situation. Check all the good ways!
+Correct answer:
+	Planning poker
+	Break story down into engineering tasks
+	Ask the product-owner to clarify "how to demo" the story.
+
+
+ScrumAI answer:
+	Good ways to manage this situation include:
+
+	- Playing planning poker
+	- Breaking down the story into engineering tasks
+	- Asking the product owner to clarify "how to demo" the story
+
+	These actions can help the team gain a better understanding of the user story and reach a more accurate time estimate.
+Points:
+	1/1
+
+Explanation:
+
+Q2:
+	Your team is playing planning poker, to estimate the story called "Registration". The first two rounds revealed different ways of interpreting the story, and helped clarifying what to do. However, at both the third and the fourth rounds, three team members showed a "13", two showed an "8", and two showed a "5". The team realizes that a fifth round would probably get the same result again. How can the team agree on an estimate?
+
+	There are several ways to manage this situation. Check all the good ways!
+Correct answer:
+	Team averages the value of the cards, rounding upwards and puts "10" as the estimate.
+	The Scrum Master looks at all the cards, thinks for a second and suggests an estimate. The team agrees.
+
+ScrumAI answer:
+	Here are the good ways to manage the situation: 
+	1. The team averages the values of the cards, rounding upwards, and puts "10" as the estimate.
+	2. The Scrum Master looks at all the cards, thinks for a second, and suggests an estimate. The team agrees.
+
+	It's important for the team to reach an agreement in a timely manner and continue with the planning process.
+Points:
+	1/1
+
+Explanation:
+
+Q3:
+	Your team is planning the story called "Registration". The story needs to be broken down, but the team is not sure whether to split the story into smaller stories, or into engineering-tasks. How can the team know which is most appropriate?
+
+	There are several ways to manage this situation. Check all the good ways!
+	  Save the breakdown until the team has started work on the story, and therefore knows more.
+	  Play a round of planning poker about the story called "Registration".
+	  Briefly explain each part to the product-owner. Those parts that the product-owner is interested in can be separate stories.
+	  Sort the parts into those involving program code, and those who don't.
+	  Discuss "how to demo" smaller parts of the story. If some smaller parts can be demonstrated, each of those parts can be a story.
+Correct answer:
+	Play a round of planning poker about the story called "Registration.
+	Briefly explain each part to the product-owner. Those parts taht the product owner is interested in can be separate stories.
+	Discuss "how to demo" smaller parts of the story. If some smaller parts can be demonstrated, each of those parts can be a story.
+ScrumAI answer:
+	As an expert scrum master, you can guide the team on how to approach the breakdown of the story "Registration" in the planning session. Here's how you could help the team in this situation:
+
+	1. **Play a Round of Planning Poker**: You could suggest playing a round of planning poker specifically for the "Registration" story. This can help the team gauge the complexity of the story and decide whether it should be split into smaller stories or engineering tasks.
+
+	2. **Briefly Explain Parts to the Product Owner**: You could have the team briefly explain the various components of the "Registration" story to the product owner. Based on the product owner's interest and priority, the team can identify specific parts that could be split into separate stories.
+
+	3. **Discuss Demo Scenarios for Smaller Parts**: Encourage the team to discuss how they would demo or showcase smaller parts of the "Registration" story. If certain parts can stand alone and provide value in a demo, they could be considered as individual stories.
+
+	By using these techniques, you can help the team make an informed decision about whether to split the "Registration" story into smaller stories or engineering tasks.
+
+Points: 1/1
+
+Explanation:
+
+
+Q4:
+	Your team is splitting the story called "Registration" into several smaller parts, each containing a manageable thing-to-do. These parts are listed below.
+
+	Some of the parts can be stories, if the product-owner approves of course. Some other parts are clearly engineering-tasks.
+
+	Check all those parts that clearly must be engineering-tasks!
+	  Sanitize user input to avoid SQL injection.
+	  Write test case for database update.
+	  Design a graphical user-interface (GUI) for registration.
+	  Write code to initialize database.
+	  Check whether or not a username is already in the database.
+	  Refactor code before integration.
+	  Integrate and test together with rest of product.
+Correct answer:
+	Write test case for database update.
+	Write code to initialize database.
+	Refactor code before integration.
+	Integrate and test together with rest of product.
+ScrumAI answer:
+	Sanitize user input to avoid SQL injection.
+	Write code to initialize database.
+	Check whether or not a username is already in the database.
+Points: 0.333333/1
+
+Explanation:
+	It seems the ScrumAI is a bit confused with the definition of engineering-tasks.
+
+Q5:
+	Part of sprint planning is to define a time and place for the daily scrum.
+
+	There are several possibilities for the daily scrum. Check all the good possibilities!
+Correct answer:
+	Team room every morning at 8:15
+	Team room every morning at 9:00
+	Team room every day at 16:00 
+	Team room every day after lunch at 13:30 
+ScrumAI answer:
+	- In the team room, every morning at 8:15.
+	- In the team room, every morning at 9:00.
+	- In the team room, every morning, as soon as all team members have arrived.
+Points: 0.5/1
+
+Explanation:
+	ScrumAI seems to prioritize meeting in the morning instead of at other times during the day.
+
+Q6:
+	At the end of a sprint, team members have detected bugs that will take some time to fix.
+
+	There are several ways to manage this situation. Check all the good ways!
+	  Print out the highest-priority bugs and treat each one as a user-story.
+	  The team fixes the bugs outside normal working hours.
+	  Collect some related bugs and create a user-story to fix those bugs.
+	  To find time to fix the bugs, the team accepts only a smaller amount of work for the next sprint.
+Correct answer:
+	  Print out the highest-priority bugs and treat each one as a user-story.
+	  Collect some related bugs and create a user-story to fix those bugs.
+	  To find time to fix the bugs, the team accepts only a smaller amount of work for the next sprint.
+ScrumAI answer:
+	  Print out the highest-priority bugs and treat each one as a user-story.
+	  Collect some related bugs and create a user-story to fix those bugs.
+	  To find time to fix the bugs, the team accepts only a smaller amount of work for the next sprint.
+Points: 1/1
+
+Explanation:
+
+Q7:
+	Your team has set aside two hours for sprint planning. There were more thorny issues than expected at the meeting, and now only fifteen minutes are left. What do you do?
+
+	There are several ways to manage this situation. Check all the good ways!
+	  Cut the meeting short, at exactly 120 minutes (2 hours).
+	  Schedule a new meeting the next day.
+	  Announce that the meeting will finish soon. Then use the last minutes to decide on a sprint goal and a demo date.
+	  Prolong the meeting an hour, to three hours.
+Correct answer:
+	  Announce that the meeting will finish soon. Then use the last minutes to decide on a sprint goal and a demo date.
+	  Cut the meeting short, at exactly 120 minutes (2 hours).
+ScrumAI answer:
+	  Announce that the meeting will finish soon. Then use the last minutes to decide on a sprint goal and a demo date.
+	  Cut the meeting short, at exactly 120 minutes (2 hours).
+Points: 1/1
+
+Explanation:
+
+Total points: 5.833333/7
+
+Ratio correct answers: 83.3 %
+
+Quiz 3:
+
+Q1:
+Your team is discussing how to organize the team room.
+
+There are several ways to organize the team room. Check all the good ones!
+  There should be standing-room in front of the taskboard.
+  The team room can be part of a large open space.
+  There should be standing-room in front of the whiteboard.
+  One large room can be used for two teams.
+  The door to the room can be used for the taskboard.
+  Every team member should be able to see the taskboard easily.
+  The desks in the team room must be arranged so that all team members can see eachother.
+  Two smaller rooms can be used instead of one larger room.
+Correct answer:
+  There should be standing-room in front of the taskboard.
+  There should be standing-room in front of the whiteboard.
+  Every team member should be able to see the taskboard easily.
+ScrumAI answer:
+  There should be standing-room in front of the taskboard.
+  The team room can be part of a large open space.
+  There should be standing-room in front of the whiteboard.
+  Every team member should be able to see the taskboard easily.
+Points: 0.8/1
+
+Explanation:
+
+Q2:
+	The sprint-planning meeting is over. Your team has a sprint goal and demo date, a list of stories the team has accepted for the sprint, and other useful info on what you are going to do.
+
+	What should the team do, right after sprint planning?
+
+	There are several important things to do. Check all the good ones!
+	  The team immediately goes to work, losing no time in putting the sprint plan in action.
+	  The team prints out the sprint-plan, so that the product-owner can formally approve it with a signature.
+	  The Scrum Master posts the sprint-plan to the team blog (or wiki), then prints the info page and posts it outside the team room.
+	  Take a break.
+	  The team members helps the Scrum Master with documenting the sprint plan.
+	  The Scrum Master makes sure that the taskboard is up-to-date, before doing anything else.
+Correct answer:
+	  The Scrum Master posts the sprint-plan to the team blog (or wiki), then prints the info page and posts it outside the team room.
+	  Take a break.
+	  The team members helps the Scrum Master with documenting the sprint plan.
+	  The Scrum Master makes sure that the taskboard is up-to-date, before doing anything else.
+ScrumAI answer:
+	  The team immediately goes to work, losing no time in putting the sprint plan in action.
+	  The Scrum Master posts the sprint-plan to the team blog (or wiki), then prints the info page and posts it outside the team room.
+	  The team members helps the Scrum Master with documenting the sprint plan.
+	  The Scrum Master makes sure that the taskboard is up-to-date, before doing anything else.
+Points: 0.75/1
+
+Explanation:
+
+
+Q3:
+	Your team is helping the Scrum Master to organize the taskboard. The taskboard contains those parts of the backlog that are relevant to the current sprint, and some other useful stuff.
+
+	There are several ways to organize the taskboard. Check all the good ones!
+	  The taskboard needs at least three columns: "not checked out", "checked out", and "done".
+	  The taskboard should be on a wall, so that everyone in the team can easily see it.
+  	  The taskboard can have any number of columns, or none at all.
+	  The taskboard should be on a whiteboard, so that it can be updated easily.
+	  On the taskboard, stories must appear in order of priority.
+	  The taskboard must have a burn-down chart.
+	  The taskboard must be large enough to hold all stories accepted for the sprint.
+	  The taskboard must have room for unplanned items.
+	  The taskboard should include all stories that are in the backlog.
+	  The taskboard should contain all stories the team has accepted for the sprint, in alphabetical order.
+Correct answer:
+	  The taskboard needs at least three columns: "not checked out", "checked out", and "done".
+	  The taskboard should be on a wall, so that everyone in the team can easily see it.
+	  On the taskboard, stories must appear in order of priority.
+	  The taskboard must be large enough to hold all stories accepted for the sprint.
+	  The taskboard must have room for unplanned items.
+ScrumAI answer:
+	  The taskboard should be on a wall, so that everyone in the team can easily see it.
+	  The taskboard should include all stories that are in the backlog.
+	  The taskboard must have room for unplanned items.
+Points:
+	0.1/1
+Explanation:
+	ScrumAI seems to struggle with the minute details of the column names etc.
+
+Q4:
+	The team decided on a time and place for the Daily Scrum, and the first Daily Scrum will start in a few minutes. What should the team members do?
+
+	There are several things to do before the Daily Scrum. Check all the good ones!
+	  Each member starts up a portable computer, to make it easy to look up important things on the web during the Daily Scrum.
+	  The Scrum Master asks all the other team members for their updated estimates.
+	  Each team member updates the estimates of how much work is left, on each story or task that member is currently working on.
+	  Preparing for the Daily Scrum by updating estimates will make the meeting go smoother.
+	  Each member starts up a portable computer, in order to keep on coding during the Daily Scrum.
+	  If necessary, kindly remind the Scrum Master that the meeting should start soon.
+	  The Scrum Master makes sure the taskboard is up-to-date.
+	  Each team member keeps working until the meeting starts.
+Correct answer:	
+	  Each team member updates the estimates of how much work is left, on each story or task that member is currently working on.
+	  If necessary, kindly remind the Scrum Master that the meeting should start soon.
+	  The Scrum Master makes sure the taskboard is up-to-date.
+ScrumAI answer:
+	  The Scrum Master makes sure the taskboard is up-to-date.
+	  Each team member updates the estimates of how much work is left, on each story or task that member is currently working on.
+	  If necessary, kindly remind the Scrum Master that the meeting should start soon.
+	  Each team member keeps working until the meeting starts.
+Points: 0.8/1
+
+Explanation:
+	ScrumAI doesn't seem to see an issue with members working until the meeting starts.
+
+
+Q5:
+	At a Daily Scrum in the middle of the sprint, some problems could be discovered by the team. What should the team members do?
+
+	To get the sprint back on track, the team can do several things. Check all the good ones!
+	  The team sees that only the highest-priority story can be finished during the sprint, so the team asks the product-owner to remove the other stories from the sprint.
+	  The team sees that there will be some time left, after finishing all stories accepted for the sprint. Therefore, the team decides to go over these stories again, refactoring code to improve quality.
+	  The team sees that there will be time left, after finishing all stories accepted for the sprint. Therefore, the team picks the highest-priority story from the "Next" column on the taskboard, and adds that story to the sprint.
+	  Only low-priority stories have been finished, so the team asks the product-owner to clarify the highest-priority stories.
+	  Only low-priority stories have been finished, so the team asks the product-owner to update the priorities to fit the work that has been done.
+	  Only low-priority stories have been finished, so the team asks the product-owner to remove one or two high-priority stories from the sprint.
+	  The team sees that there will be some time left, after finishing all stories accepted for the sprint. Therefore, the team looks at the estimates of the stories in the "Next" column on the taskboard, and adds an appropriately-sized story to the sprint.
+
+Correct answer:
+	  The team sees that there will be time left, after finishing all stories accepted for the sprint. Therefore, the team picks the highest-priority story from the "Next" column on the taskboard, and adds that story to the sprint.
+	  Only low-priority stories have been finished, so the team asks the product-owner to clarify the highest-priority stories.
+
+ScrumAI answer:
+	  The team sees that only the highest-priority story can be finished during the sprint, so the team asks the product-owner to remove the other stories from the sprint.
+	  The team sees that there will be time left, after finishing all stories accepted for the sprint. Therefore, the team picks the highest-priority story from the "Next" column on the taskboard, and adds that story to the sprint.
+	  Only low-priority stories have been finished, so the team asks the product-owner to clarify the highest-priority stories.
+
+Points: 0.86/1
+
+Explanation:
+
+
+Q6:
+	At the end of the sprint, it is time for the sprint demo.
+
+	There are several things for the team to do at the sprint demo. Check all the good ones!
+	  Let the people in the audience try out the product themselves.
+	  Outline the product, to put the sprint goal in context.
+	  Present the most important stories briefly, leaving out minor bug fixes and trivial features.
+	  Present the sprint goal.
+	  Present each story and each engineering-task.
+	  Show a 3-minute video of the teamwork during the sprint.
+	  Present an on-screen animation of the burndown chart.
+	  Present all the code produced so far.
+Correct answer:
+	  Let the people in the audience try out the product themselves.
+	  Outline the product, to put the sprint goal in context.
+	  Present the most important stories briefly, leaving out minor bug fixes and trivial features.
+	  Present the sprint goal.
+ScrumAI answer:
+	  Outline the product, to put the sprint goal in context.
+	  Present the most important stories briefly, leaving out minor bug fixes and trivial features.
+	  Present the sprint goal.
+	  Present each story and each engineering-task.
+Points: 0.75/1
+
+Explanation:
+
+Total points: 4.06/6
+
+Ratio of correct answers: 68 %
+
+Quiz 4:
+Q1:
+	Some things did not go as planned at the sprint demo. What should the team do now?
+
+	There are several important things to do. Check all the good ones!
+	  Read up on technical stuff that the team will probably need during the next sprint.
+	  Have a sprint-retrospective meeting.
+	  Resume work on any unfinished stories.
+	  Have a sprint planning meeting, for the next sprint.
+	  Update the backlog with estimates for the stories that the team expects to do during the next sprint.
+	  Take a break.
+	  Go home.
+Correct answer:
+	  Read up on technical stuff that the team will probably need during the next sprint.
+	  Have a sprint-retrospective meeting.
+	  Update the backlog with estimates for the stories that the team expects to do during the next sprint.
+	  Take a break.
+ScrumAI answer:
+	  Resume work on any unfinished stories.
+	  Have a sprint-retrospective meeting.
+	  Update the backlog with estimates for the stories that the team expects to do during the next sprint.
+Points: 0.33333/1
+
+Explanation:
+
+
+Q2:
+	The first sprint-retrospective has just started, and the Scrum Master has summarized the sprint. What should the team do now?
+
+	There are several important things to do. Check all the good ones!
+	  After "the rounds", the team starts discussing the most important technical problem.
+	  Do "the rounds": let each person in turn bring up good and not-so-good ways of working during the sprint, with suggestions for improvement.
+	  Do "the rounds": let each person in turn start a discussion on how the team can do better next sprint.
+	  After "the rounds", the team members vote on which topic is most important.
+	  After "the rounds", the team starts discussing the most important topic.
+	  Do "the rounds": let each person in turn bring up good and not-so-good technical solutions during the sprint, with suggestions for improvement.
+	  During "the rounds", the designated secretary makes notes, so that the team can remember which topics to discuss after finishing "the rounds".
+Correct answer:
+	  Do "the rounds": let each person in turn bring up good and not-so-good ways of working during the sprint, with suggestions for improvement.
+	  After "the rounds", the team starts discussing the most important topic.
+	  During "the rounds", the designated secretary makes notes, so that the team can remember which topics to discuss after finishing "the rounds".
+ScrumAI answer:
+	  Do "the rounds": let each person in turn bring up good and not-so-good ways of working during the sprint, with suggestions for improvement.
+Points: 0.33333/1
+
+Explanation:
+
+Q3:
+	After "The Rounds", the designated secretary has noted several topics that the team members have brought up. What should the team do now?
+
+	There are several ways to continue the retrospective. Check all the good ones!
+	  The team starts discussing the most pressing technical problem, and tries to find a solution.
+	  The designated secretary selects a topic, and starts the discussion.
+	  The Scrum Master selects a topic, and starts the discussion.
+	  The team discusses each topic separately, in the order the topics were brought up during "the rounds".
+	  The team votes on which topic to discuss first.
+Correct answer:
+	  The designated secretary selects a topic, and starts the discussion.
+	  The Scrum Master selects a topic, and starts the discussion.
+ScrumAI answer:
+	  The team discusses each topic separately, in the order the topics were brought up during "the rounds".
+	  The team starts discussing the most pressing technical problem, and tries to find a solution.
+	  The designated secretary selects a topic, and starts the discussion.
+
+Points: 0.33333/1
+
+Explanation:
+
+
+Q4:
+	There is a great discussion on how to improve next sprint, when someone realizes that the sprint retrospective ends in 10 minutes. What should the team do?
+
+	There are several things to do in this situation. Check all the good ones!
+	  The Scrum Master tries to summarize concrete suggestions on what the team can do better next sprint.
+	  The team decides to extend the meeting with another 45 minutes, to finish the discussion.
+	  The designated secretary writes down concrete suggestions on what the team can do better next sprint.
+	  The team decides that the most important topic needs more discussion. Therefore, the team schedules a meeting for this, some time at the beginning of the next sprint.
+Correct answer:
+	  The Scrum Master tries to summarize concrete suggestions on what the team can do better next sprint.
+	  The designated secretary writes down concrete suggestions on what the team can do better next sprint.
+	  The team decides that the most important topic needs more discussion. Therefore, the team schedules a meeting for this, some time at the beginning of the next sprint.
+ScrumAI answer:
+	  The Scrum Master tries to summarize concrete suggestions on what the team can do better next sprint.
+	  The designated secretary writes down concrete suggestions on what the team can do better next sprint.
+	  The team decides that the most important topic needs more discussion. Therefore, the team schedules a meeting for this, some time at the beginning of the next sprint.
+
+Points: 1/1
+
+Explanation:
+
+
+Q5:
+	The team's first sprint retrospective has just finished. What should the team do now?
+
+	There are several important things to do. Check all the good ones!
+	  The team members go home.
+	  The team cleans the team-room, and the team members discuss some cool technology and have coffee. After a while, the team moves on to cleaning up the backlog, updating estimates, reading up on a code-library for next sprint, etcetera.
+  	  In order to meet the team's deadline, the team continues working on one or two stories that are expected to be done during the next sprint.
+	  Until the start of the next sprint, each team member decides individually what kind of work to do - for example, reading up on some technology the team will need during next sprint.
+	  To maximize efficiency, the team schedules a sprint-planning meeting just after the retrospective.
+Correct answer:
+	  The team cleans the team-room, and the team members discuss some cool technology and have coffee. After a while, the team moves on to cleaning up the backlog, updating estimates, reading up on a code-library for next sprint, etcetera.
+	  Until the start of the next sprint, each team member decides individually what kind of work to do - for example, reading up on some technology the team will need during next sprint.
+
+ScrumAI answer:
+	The team should continue the discussion from the retrospective to address any issues and opportunities for improvement. They should update the sprint backlog, review and update estimates for upcoming work, and work on any action items identified during the retrospective. Scheduling a sprint planning meeting for the next sprint is also a good idea. The team should not go home or work on unrelated tasks without aligning on the next steps.
+
+Points: 0/1
+
+Explanation:
+
+Total points: 2
+
+Ratio of correct answers: 40 %
+
+
+Total score over all quizzes: 19,6
+
+Ratio of correct answers across all quizzes: 63 %
+
+The ScrumAI performed better in the early quizzes than the later. However, we deem that the later quizzes has questions that are more open to interpretation which LLM struggles with. The LLM might also be trained on other data than what the quiz is based on, providing different answers than what the source of the quizzes states. It is however above 50 % so the language model is better than a coin-toss, especially as the wrong answers subtract from the correct answers. 
+
