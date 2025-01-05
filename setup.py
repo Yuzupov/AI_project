@@ -1,5 +1,5 @@
 import openai, json
-from datasets import load dataset
+from datasets import load_dataset
 from openai import OpenAI
 
 with open('apikey.txt', 'r') as file:
